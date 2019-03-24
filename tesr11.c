@@ -19,7 +19,7 @@ int main()
        else if(b%a==0)
         com=c;
        else
-        com=(a+b)/n;
+        com=n/(a+b);
 
        sum=(p+c)-2*com;
        if(sum>=k)printf("Win\n");
